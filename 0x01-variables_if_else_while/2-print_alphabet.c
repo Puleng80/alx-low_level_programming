@@ -9,9 +9,12 @@ int main(void)
 {
 	char c;
 	c = 'a';
-	while 
+
+	while
 		(c <= 'z') {
 			putchar(c);
-putchar('\n');		}
+			c++;
+		}
+putchar('\n');
 	return (0);
 }

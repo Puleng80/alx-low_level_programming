@@ -8,16 +8,27 @@
 
 int main(void)
 {
-	int c;
+	char c;
 
-	c = 0;
+	int d;
+
+	c = 'a';
+
+	d = 0;
 
 	while
-		(c < 10)
+		(d < 10)
 		{
-			putchar(c + '0');
-			c++;
-		}
+			putchar(d + '0');
+		d++;
+		
+	}
+	while
+		(c <= 'f')
+		{
+			putchar(c);
+		c++;
+	}
 	putchar('\n');
 	return (0);
 }

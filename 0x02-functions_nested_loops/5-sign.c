@@ -3,12 +3,15 @@
 /**
  * main - print_sign _ function that prints the sign of a number..
  * @n: The input number to check
- * Return: int.
+ * Return: 0
  */
 
-int print_sign(int n)
+int main(void)
 {
-	if (n > 0)
+	int = n;
+
+	if
+		(n > 0)
 	{
 		_putchar(43);
 		return (1);
